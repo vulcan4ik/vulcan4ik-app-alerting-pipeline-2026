@@ -39,7 +39,7 @@ connection = {
 
 TELEGRAM_TOKEN = _env("TELEGRAM_TOKEN")
 CHAT_ID = int(_env("TELEGRAM_CHAT_ID"))
-SUPERSET_CHART_URL = "https://superset.mycompany.ru/superset/explore/?form_data=..."
+SUPERSET_CHART_URL = "https://superset.lab.karpov.courses/superset/dashboard/7930/"
 
 # Конфигурация метрик 
 FEED_METRICS_CONFIG = {
@@ -218,7 +218,7 @@ def create_alert_message(metric_name: str, current_value: float,
 📈 *Текущее значение:* {current_fmt}
 📉 *Отклонение {direction}:* {deviation:.1%}
 🎯 *Диапазон нормы:* [{low_fmt} — {up_fmt}]
-    "Графики метрик: {superset_url}\n"
+    *Графики метрик:* {superset_url}
      *Рекомендация:* {recommendation}
 
 """
