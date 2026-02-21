@@ -1,0 +1,7 @@
+# для локального тестирования DAG
+pandas>=2.0
+pandahouse>=0.6
+matplotlib>=3.8
+seaborn>=0.13
+python-telegram-bot>=20.0
+numpy>=1.24
