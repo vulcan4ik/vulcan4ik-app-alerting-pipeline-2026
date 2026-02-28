@@ -81,7 +81,7 @@
 
 ```python
   def check_anomaly_iqr(df: pd.DataFrame, metric: str, a: float = 3.5, n: int = 6:
- 
+```python 
 - расчёт Q1 и Q3 за последние n=6 интервалов (1.5 часа)
 - IQR = Q3 − Q1
 - верхняя граница = Q3 + 3.5 × IQR- 
@@ -92,6 +92,7 @@
 ```python
 def check_anomaly_day_ago(df: pd.DataFrame, metric: str, threshold: float = 0.35):
 
+```python
 - сравнение с той же 15-минуткой вчера
 - отклонение > 35% → аномалия
 - защита от нулевых значений
@@ -133,7 +134,6 @@ cd vulcan4ik-app-alerting-pipeline-2026
 
 docker build -f docker/Dockerfile -t app-alert-demo .
 docker run --rm -v "./output:/app/output" app-alert-demo
-
 ```
 
 ## 🛠️ Технологии
