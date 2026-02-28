@@ -219,7 +219,7 @@ def create_alert_message(metric_name: str, current_value: float,
 📉 *Отклонение {direction}:* {deviation:.1%}
 🎯 *Диапазон нормы:* [{low_fmt} — {up_fmt}]
     *Графики метрик:* {superset_url}
-     *Рекомендация:* {recommendation}
+    *Рекомендация:* {recommendation}
 
 """
     
