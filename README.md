@@ -55,7 +55,7 @@
 
 ### 1. Реализация продакшн-решений в Airflow DAG
 
-                ```
+'''
                 ClickHouse 
                     ↓
                 Airflow DAG
@@ -63,7 +63,7 @@
                 pandas (IQR / Day-over-Day)
                     ↓
                 Telegram Bot API
-                ```
+'''
 
 **dag-app-tg-report.py** — ежедневный отчёт по метрикам приложения:
 - Выборка данных из ClickHouse за прошлые сутки;
