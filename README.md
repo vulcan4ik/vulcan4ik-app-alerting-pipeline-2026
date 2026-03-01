@@ -13,13 +13,13 @@
 **Выполнение DAG-ов в Airflow UI**  
 ![Airflow DAGs](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/app-report-tree.JPG?raw=true)  
 
-**Успешное завершение задач**  
-![Airflow tasks success](screenshots production)  
+**Отображение ежедневного отчета в телеграмме**  
+![Daily report](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/daily-report-demo.JPG?raw=true)  
 
-**Логи выполнения пайплайна**  
-![Airflow logs](screenshots production/logs.png)
+**Графики ежедневного отчета**  
+![Daily metrics plots](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/daily-metrics-graphic.jpg)
 
-### 2. Результаты demo-режима (Docker + .py скрипт)
+### 2. Результаты работы alert - DAG (продакшен)
 
 **Сгенерированный отчёт по приложению**  
 ![App report](screenshots/demo-output/app_report_md.png)
