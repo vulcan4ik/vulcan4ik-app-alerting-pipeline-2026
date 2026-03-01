@@ -27,13 +27,13 @@ __________________________________________________________
 ### 2. Результаты работы alert - DAG (продакшен)
 
 **Отработка Алерта по DAU и views сервиса новостей и оповещение в телеграмм**  
-![App message report](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/feed-alert-example-1.jpg)
+![App message report](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/feed-alert-example-1.JPG?raw=true)
 
 __________________________________________________________
 
 
 **Дашборд руководителя, доступный по ссылке из алерта**  
-![app metrics supersets]((https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/superset-daily-metrics.jpg))
+![app metrics supersets]((https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/superset-daily-metrics.JPG?raw=true))
 
 
 ---
