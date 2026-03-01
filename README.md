@@ -33,7 +33,7 @@ __________________________________________________________
 
 
 **Дашборд руководителя, доступный по ссылке из алерта**  
-![app metrics supersets]((https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/superset-daily-metrics.JPG?raw=true))
+![app metrics supersets](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/superset-daily-metrics.JPG?raw=true)
 
 
 ---
