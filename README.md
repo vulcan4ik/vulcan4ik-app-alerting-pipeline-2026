@@ -157,9 +157,8 @@ app-alerting-pipeline-2026/
   docker/                  # Docker зависимости
     Dockerfile
     requirements.txt
-  output/                  # Генерируемые отчёты и графики (в репо только .gitkeep)
   screenshots_production/  # Скриншоты реальной работы в Airflow 
-  output/                  # Результаты работы демо-скрипта output/
+  output/                  # Результаты работы демо-скрипта (отчеты и графики)
   src/
     app_report_demo.py     # Генерация отчёта по метрикам приложения
     alerts_demo.py         # Проверка алертов
