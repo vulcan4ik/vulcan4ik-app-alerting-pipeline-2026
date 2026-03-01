@@ -76,7 +76,7 @@
 
  **Методы детектирования аномалий**:
   
-  **Метод 1: IQR (основной)**
+*Метод 1: IQR (основной)*
 
 ```
   def check_anomaly_iqr(df: pd.DataFrame, metric: str, a: float = 3.5, n: int = 6:
@@ -87,12 +87,11 @@
 - верхняя граница = Q3 + 3.5 × IQR- 
 - нижняя граница = Q1 − 3.5 × IQR
 
-Метод 2: Day-over-Day (дополнительный)
+*Метод 2: Day-over-Day (дополнительный)*
 
-```python
+```
 def check_anomaly_day_ago(df: pd.DataFrame, metric: str, threshold: float = 0.35):
-
-```python
+```
 - сравнение с той же 15-минуткой вчера
 - отклонение > 35% → аномалия
 - защита от нулевых значений
@@ -136,12 +135,12 @@ docker build -f docker/Dockerfile -t app-alert-demo .
 docker run --rm -v "./output:/app/output" app-alert-demo
 ```
 
-## 🛠️ Технологии
+## Стек
 
 - **Язык:** Python 3.12  
 - **Хранилище данных (prod):** ClickHouse  
 - **Оркестрация:** Apache Airflow (DAG-и в `airflow/dags/`)  
-- **Data processing:** pandas, numpy  
+- **Data processing:** pandas, numpy, pandahouse  
 - **Визуализация:** matplotlib / seaborn  
 - **Контейнеризация:** Docker  
 - **Формат отчётов:** Markdown + PNG-графики  
