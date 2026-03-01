@@ -13,25 +13,28 @@
 **Выполнение DAG-ов в Airflow UI**  
 ![Airflow DAGs](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/app-report-tree.JPG?raw=true)  
 
+__________________________________________________________
+
 **Отображение ежедневного отчета в телеграмме**  
 ![Daily report](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/daily-report-demo.JPG?raw=true)  
+
+__________________________________________________________
 
 **Графики ежедневного отчета**  
 ![Daily metrics plots](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/daily-metrics-graphic.jpg)
 
+
 ### 2. Результаты работы alert - DAG (продакшен)
 
-**Сгенерированный отчёт по приложению**  
-![App report](screenshots/demo-output/app_report_md.png)
+**Отработка Алерта по DAU и views сервиса новостей и оповещение в телеграмм**  
+![App message report](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/feed-alert-example-1.jpg)
 
-**Графики продуктовых метрик**  
-![App charts](screenshots/demo-output/app_charts.png)
+__________________________________________________________
 
-**Алерт по CTR ленты**  
-![Alert feed CTR](screenshots/demo-output/alert_feed_ctr.png)
 
-**Алерт по сообщениям**  
-![Alert msg messages](screenshots/demo-output/alert_msg_messages.png)
+**Дашборд руководителя, доступный по ссылке из алерта**  
+![app metrics supersets]((https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/superset-daily-metrics.jpg))
+
 
 ---
 
