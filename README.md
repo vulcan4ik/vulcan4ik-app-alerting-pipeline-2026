@@ -11,7 +11,7 @@
 ### 1. Отработка DAG в Airflow (продакшен)
 
 **Выполнение DAG-ов в Airflow UI**  
-![Airflow DAGs](screenshots production/dags_running.png)  
+![Airflow DAGs](https://github.com/vulcan4ik/app-alerting-pipeline-2026/blob/main/screenshots_production/app-report-tree.JPG?raw=true)  
 
 **Успешное завершение задач**  
 ![Airflow tasks success](screenshots production)  
@@ -84,7 +84,7 @@
 
 - расчёт Q1 и Q3 за последние n=6 интервалов (1.5 часа)
 - IQR = Q3 − Q1
-- верхняя граница = Q3 + 3.5 × IQR- 
+- верхняя граница = Q3 + 3.5 × IQR 
 - нижняя граница = Q1 − 3.5 × IQR
 
 *Метод 2: Day-over-Day (дополнительный)*
@@ -126,10 +126,11 @@ def check_anomaly_day_ago(df: pd.DataFrame, metric: str, threshold: float = 0.35
   - выводит список созданных файлов.
 
 ### 5. Запуск демо режима при помощи Docker
+Клонируйте репозиторий через команду терминала или просто скачайте себе на локальную машину и выполните docker build  и docker run  в папке проекта
 
 ```
-git clone https://github.com/vulcan4ik/vulcan4ik-app-alerting-pipeline-2026.git
-cd vulcan4ik-app-alerting-pipeline-2026
+git clone https://github.com/vulcan4ik/app-alerting-pipeline-2026.git
+cd app-alerting-pipeline-2026
 
 docker build -f docker/Dockerfile -t app-alert-demo .
 docker run --rm -v "./output:/app/output" app-alert-demo
